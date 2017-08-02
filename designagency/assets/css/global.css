@@ -1,0 +1,751 @@
+/*
+ Table Of Contents
+ 1.) Eric Meyer's Reset
+ 2.) Global Typography
+ 2.0.2) Global Headings
+ 2.0.3) Form Elements
+ 2.0.4) List styles
+ 2.0.5) General Text Formatting
+ 2.0.6) Link elements
+ 2.0.7) Table Elements
+ 2.0.8) Button Styles
+ 2.0.9) Sprite Icons
+ 3.) Site Wide Content
+ 4.) Header Style
+ 5.) Footer Style
+ ===============================================*/
+
+/*
+ 1.) Eric Meyer's Reset
+ ----------------------------------------*/
+/**
+ * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+ * http://cssreset.com
+ */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*
+ 1.) Global Typography
+ ----------------------------------------*/
+*, :before, :after {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+html {
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	font-size: 100%;
+}
+body {
+	font-size: 62.5%;
+	/* background:  url(../images/homepage-bg.jpg) center top no-repeat;*/
+	font-family: 'Roboto Slab', serif;
+	/* opacity: 0.4;*/
+}
+
+/*
+ 2.0.2) Global Headings
+ -----------------------------*/
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+	color: #161e21;
+}
+h1, .h1, h2, .h2, h3, .h3 {
+	margin: 0;
+	line-height: 1;
+	font-family: 'Roboto Slab', serif;
+}
+h1 {
+	font-size: 72px;
+	color: #1c2022;
+	font-weight: 700;
+	margin-top:8px;
+}
+.h1{
+	font-size: 300px;
+	color: #090c0e;
+	font-weight: 300;
+}
+h2 {
+	font-size: 60px;
+	color: #1c2022;
+	font-weight: 100;
+}
+h3 {
+	font-size: 36px;
+	color: #1c2022;
+	margin-bottom: 39px;
+	text-transform: capitalize;
+}
+.h3{
+	font-size: 30px;
+	color: #ffffff;
+	font-weight: 100;
+}
+h4 {
+	font-size: 20px;
+	color: #1c2022;
+	font-weight: 400;
+	margin-bottom: 25px;
+	text-transform: capitalize;
+}
+
+/*
+ 2.0.3) Form Elements
+ -----------------------------*/
+button, input, optgroup, select, textarea {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	color: inherit;
+	background: #fff;
+	border: 1px solid #ccc;
+	font-family: 'Roboto Slab', serif;
+	-webkit-appearance: none;
+}
+input {
+	line-height: normal;
+}
+input:focus, select:focus, textarea:focus, button:focus {
+	border: 1px #888 solid;
+	outline: 0;
+}
+input[type="checkbox"], input[type="radio"] {
+	padding: 0;
+	border: none;
+}
+button, input[type="button"], input[type="reset"], input[type="submit"], input[type="file"] {
+	-webkit-appearance: none;
+	cursor: pointer;
+	line-height: normal;
+	overflow: visible;
+}
+input[type="text"] {
+	border-radius: 0;
+	width: 312px;
+	padding: 13px 44px 12px;
+	border: 1px solid #d7d7d7;
+	float:left;
+	line-height:21px;
+	height: 52px;
+	color: #a5a5a5;
+	font-size: 16px;
+	font-weight: 300;
+}
+textarea{
+	font-size: 16px;
+	color: #777d80;
+	text-transform:capitalize;
+	padding:16px 0 0 60px;
+	font-size: 16px;
+	margin-top:20px;
+}
+label{
+	font-size:16px;
+	color: #1c2022;
+	font-weight: 300;
+}
+button[disabled], input[disabled] {
+	cursor: default;
+	color: #999;
+	border-color: #ccc;
+}
+button::-moz-focus-inner, input::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+input::-moz-placeholder {
+	color: #a5a5a5;
+	font-size: 16px;
+	font-weight:300;
+}
+input::-webkit-input-placeholder {
+	color: #a5a5a5;
+	font-size: 16px;
+	font-weight:300;
+}
+input::-ms-input-placeholder {
+	color: #a5a5a5;
+	font-size: 16px;
+	font-weight:300;
+}
+textarea::-moz-placeholder {
+	color: #777d80;
+	font-size: 16px;
+}
+textarea::-webkit-input-placeholder {
+	color: #777d80;
+	font-size: 16px;
+}
+textarea::-ms-input-placeholder {
+	color: #777d80;
+	font-size: 16px;
+}
+
+/*
+ 2.0.4) List Styles
+ ---------------------------------*/
+ul, ol, dl {
+	font-size: 100%;
+	line-height: 1.5;
+}
+li, dt {
+	line-height: 1.5em;
+}
+dl {
+	margin: 0 0 1em 0;
+}
+dd {
+	margin: 0 0 1em 0.8em;
+}
+ul {
+	list-style-type: none;
+	margin: 0 0 1em 0;
+}
+ol {
+	list-style-type: decimal;
+	margin: 0 0 1em 0;
+}
+ul ul, ol ul {
+	list-style-type: circle;
+	margin-top: 0;
+}
+ol ol {
+	list-style-type: lower-latin;
+	margin-top: 0;
+}
+
+/*
+ 2.0.5) General Text Formatting
+ -----------------------------------*/
+p {
+	font-size: 100%;
+	line-height: 1.7;
+}
+blockquote, cite, q, var, dfn {
+	font-style: italic;
+}
+blockquote {
+	background: transparent;
+	color: #666666;
+}
+small {
+	
+	font-size: 85.71429%;
+	line-height: 1.75;
+}
+pre, code, kbd, tt, samp, var {
+	font-size: 100%;
+}
+pre {
+	font-size: 100%;
+	line-height: 1.5;
+	margin: 0 0 1.5em 0;
+	white-space: pre;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+}
+pre, code {
+	color: #880000;
+}
+kbd, samp, var {
+	color: #666666;
+	font-weight: bold;
+}
+acronym, abbr {
+	border-bottom: 1px #aaa dotted;
+	font-variant: small-caps;
+	cursor: help;
+}
+sub, sup {
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+}
+sup {
+	top: -0.5em;
+}
+sub {
+	bottom: -0.25em;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+/*
+ 2.0.6) Link style
+ -------------------------*/
+a {
+	color: #4d87c7;
+	text-decoration: none;
+}
+a:hover, a:focus {
+	color: #4d87ff;
+	text-decoration: none;
+	outline: none;
+}
+a:active {
+	outline: none;
+}
+
+/*
+ 2.0.7) Table Elements
+ --------------------------*/
+table {
+	width: 100%;
+	border-collapse: collapse;
+	color: #444444;
+	border-top: 1px #ccc solid;
+	border-bottom: 1px #ccc solid;
+	margin: 0 0 1.35714em 0;
+}
+caption {
+	font-variant: small-caps;
+}
+th, td {
+	line-height: 1.5em;
+	vertical-align: top;
+	padding: 0.71429em 0.5em;
+}
+th *:first-child, td *:first-child {
+	margin-top: 0;
+}
+thead th {
+	text-align: left;
+	color: #000;
+	border-bottom: 2px #000 solid;
+}
+tbody th {
+	text-align: left;
+	border-top: 1px solid #ccc;
+}
+tbody td {
+	text-align: left;
+	border-top: 1px solid #ccc;
+}
+
+/*
+ 2.0.8) Button Styles
+ -------------------------*/
+.btn, input.btn, button.btn {
+	display: inline-block;
+	font-size: 12px;
+	color: #000;
+	line-height: normal;
+	vertical-align: middle;
+	padding: 0 5px;
+	text-align: center;
+	white-space: nowrap;
+	cursor: pointer;
+	border: 1px solid #ccc;
+	background: #eee;
+	letter-spacing: 1px;
+}
+button.btn-submit {
+	padding: 0px 28px;
+	line-height: 44px;
+	font-size: 13px;
+	color: #fff;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+	text-align: center;
+	background: #0e111a;
+	text-transform: uppercase;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	border: none;
+}
+
+/*
+ 2.0.9) Sprite Icons
+ -------------------------*/
+[class^="icon-"], [class*="icon-"] {
+	background-image: url(../images/sprite.png);
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	display: inline-block;
+	height: 14px;
+	line-height: 14px;
+	margin-top: 1px;
+	vertical-align: text-top;
+	width: 14px;
+}
+/* Clear Floated Elements
+ ----------------------------------------------------------------------------------------------------*/
+
+/* http://sonspring.com/journal/clearing-floats */
+
+.clear {
+	clear: both;
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+/* http://perishablepress.com/press/2008/02/05/lessons-learned-concerning-the-clearfix-css-hack */
+.clearfix:after {
+	clear: both;
+	content: ' ';
+	display: block;
+	font-size: 0;
+	line-height: 0;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+.clearfix {
+	display: inline-block;
+}
+* html .clearfix {
+	height: 1%;
+}
+.clearfix {
+	display: block;
+}
+/*
+ 3.) Site Wide Content
+ ------------------------------*/
+#wrapper{
+	overflow:hidden;
+	position:relative;
+}
+p {
+	color: #1c2022;
+	font-size: 16px;
+	font-weight: 300;
+}
+.btn:hover, .btn:focus, .btn.focus, .tp-mask-wrap .tp-caption.read_more_banner a:hover {
+	color: #ffaf36;
+}
+.btn, button {
+	font-size: 14px;
+	color: #1c2022;
+	font-family: 'Karla', sans-serif;
+	font-weight: 700;
+	border: 2px solid #1c2022;
+	background: none;
+	padding: 16px 32px 16px;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	display: inline-block;
+	letter-spacing:1px;
+	text-transform: uppercase;
+}
+/*
+ 4.) Header Styles
+ ------------------------------*/
+#header {
+	padding: 37px 0;
+	position: relative;
+	z-index:9999;
+}
+.header-cont .logo {
+	float: left;
+}
+.header-cont nav {
+	float: right;
+}
+.home-menu.menu-bar {
+    margin-top: 12px;
+    }
+button.menu, button.home-menu {
+	background: transparent;
+	border: none;
+	padding-top:0;
+}
+button.menu span, button.home-menu span {
+	height: 3px;
+	width: 26px;
+	background: #1c2022;
+	display: block;
+	margin-bottom: 5px;
+}
+.home .navigation{
+	display: none;
+	position:absolute;
+	top:10px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	width: 705px;
+}
+button.menu-bar span:first-child{
+	display: none;
+}
+button.menu-bar span:nth-child(n){
+	transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+	transition: 0.5s;
+}
+button.menu-bar span:last-child{
+	-webkit-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+	position: relative;
+	top:-8px;
+	transition: 0.5s;
+}
+.menu.home-menu.menu-bar {
+    margin: 7px 0 0;
+}
+/*header-one css start here*/
+#header.header-one{
+	padding:39px 0 35px;
+}
+.about-us-page #header.header-one{
+	padding:39px 0 35px;
+}
+.header-one .navigation{
+	margin-top: 7px;
+	display: block;
+	float: right;
+}
+.navigation > li{
+	float: left;
+	margin-left:44px;
+	position: relative;
+}
+.navigation > li:first-child{
+	margin-left:0;
+}
+.navigation li a{
+	font-size:15px;
+	color: #808588;
+	font-family: "Karla",sans-serif;
+	font-weight: 700;
+	padding:0 0 8px 0;
+	text-transform:uppercase;
+	position: relative;
+}
+.navigation > li > a:after{
+	height:3px;
+	width: 10px;
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0px;
+	display:none;
+}
+.navigation > li:hover a,.navigation > li.active a{
+	color: #181818;
+}
+.navigation li:hover a:after, .navigation li.active a:after{
+	display:block;
+}
+.header-one  button.menu, .drop-down{
+	display: none;
+}
+.navigation .drop-down{
+	position: absolute;
+	left: 0;
+	list-style: none;
+	top:8px;
+	z-index: 9999999;
+	width:171px;
+	padding-top: 30px;
+}
+.navigation .drop-down li a{
+	text-transform:capitalize;
+	padding:15px 15px;
+	display: block;
+	border-bottom:1px solid #484545;
+	background:#000000;
+	color:#ffffff;
+}
+.drop-down li:last-child a{
+	border-bottom: none;
+}
+.navigation li:hover .drop-down{
+    display: block;
+}
+
+/*header-one css end here*/
+
+/*==============================================
+ sticky header style
+ ------------------------------*/
+body #header {
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+}
+body #header.fixed {
+	background:#fff;
+}
+body #header.fixed {
+	position: relative;
+	width: 100%;
+	left: 0;
+	top: 0;
+}
+body #header.fixed {
+	position: fixed;
+	width: 100%;
+	left: 0;
+	right: 0;
+	top: 0;
+	margin: 0 auto;
+
+}
+body #header.intelligent {
+	position: static !important;
+}
+body #header.intelligent {
+	position: fixed !important;
+	top:0;
+	left:0;
+	right:0;
+	width:100%;
+	background:#fff;
+}
+body #header.up {
+	top: -162px;
+	opacity: 0;
+	visibility: hidden;
+}
+body #header.down {
+	top: 0;
+	opacity: 1;
+	visibility: visible;
+}
+.top-m {
+	margin-top:108px !important;
+}
+body #header.fixed.intelligent.fix .main-header {
+	position: relative;
+}
+.header {
+	position: relative;
+	z-index: 9999;
+}
+.bg_color{
+	background:#62666d;
+}
+.header-two.bg_color{
+	background:#fff;
+}
+.banner-style.top-m{
+	margin-top:95px !important;
+}
+.top-space.top-m {
+	margin-top:128px !important;
+}
+
+/*
+ 5.)   Footer Styles
+ ------------------------------*/
+#footer {
+	padding: 92px 0 0px;
+}
+.footer-nav li a {
+	font-size: 16px;
+	color: #1c2022;
+	font-weight: 300;
+}
+#footer h4{
+	margin-bottom:38px;
+}
+.footer-nav li {
+	margin-bottom: 20px;
+}
+#footer form button {
+	padding: 14px 25px;
+	float: left;
+	margin-left: 8px;
+	height: 52px;
+}
+#footer .social-link {
+	float: none;
+	margin-top:40px;
+}
+#footer .social-link li {
+	text-align: left;
+}
+#footer  form {
+	margin-bottom: 30px;
+	width:515px;
+}
+#footer .social-link li a {
+	color: #1c2022;
+}
+.form-content {
+	position: relative;
+	margin-top:-8px;
+}
+.form-content i.icon-envelope-open {
+	font-size: 16px;
+	left: 16px;
+	position: absolute;
+	top: 18px;
+}
+.footer-logo{
+	margin-top: 87px;
+}
+.footer-logo a {
+	float: left;
+	width: 13%;
+}
+.footer-logo span {
+	float: left;
+	width: 70%;
+	font-size: 16px;
+	color: #1c2022;
+	font-weight: 300;
+}
+.footer-bar{
+	height: 5px;
+	background:#3db7ee;
+	position: relative;
+}
+.padding-bottom{
+	padding-bottom: 94px;
+}
+.foot-yellow-bar, .foot-purple-bar{
+	background:#eeab42;
+	width: 20%;
+	position: absolute;
+	top:0;
+	left: 0;
+	height:100%;
+}
+.foot-purple-bar{
+	background:#8162b1;
+	left: 40%;
+}
+.change-place{
+	left: 60%;
+}

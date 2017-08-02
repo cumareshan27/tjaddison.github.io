@@ -1,0 +1,848 @@
+/*
+ Table Of Contents
+ 1.) Media Query for Tablet
+ 2.) Media Query for Handheld Devices
+ 3.) Media Query for mobile
+ ===============================================*/
+/*
+ 1.) Media Query for Tablet
+ ===============================*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+	.banner h1 {
+		font-size: 67px !important;
+	}
+	.img-cont p {
+		width: auto;
+	}
+	.blog p {
+		width: auto;
+	}
+	.home-menu.menu-bar {
+		margin-top: 14px;
+	}
+	.img-cont {
+		padding-left: 50px;
+		padding-bottom: 84px;
+	}
+	.img-cont span, .team .img-cont span {
+		left: -54%;
+	}
+	.our-service p {
+		width: auto;
+	}
+	.team .img-cont {
+		padding-bottom: 58px;
+		padding-top: 85px;
+	}
+	.blog .blog-content-wrap h4{
+		font-size: 14px;
+	}
+	.line {
+		bottom: 1px;
+	}
+	.our-service h4 {
+		font-size: 16px;
+	}
+	.icons li {
+		font-size: 12px;
+		width: 50%;
+	}
+	.award-section li span {
+		line-height: 25px;
+	}
+	.footer-logo a {
+		width: 16%;
+	}
+	.footer-logo span{
+		font-size: 12px;
+	}
+	.blog-title span {
+		font-size: 14px;
+	}
+	#footer form button {
+		padding: 14px 17px;
+		margin-left: 0;
+		float:none;
+		margin-top:15px;
+	}
+	input[type="text"] {
+		padding: 15px 15px 12px 49px;
+		width: 348px;
+		float:none;
+	}
+	.social-link, #footer .social-link {
+		width: 60%;
+	}
+	.about-us-page .blog-title p{
+		font-size: 14px;
+	}
+	#footer form {
+		width: 369px;
+	}
+	.blog-title h4 {
+		font-size: 17px;
+		margin-bottom: 10px;
+	}
+	.blog:before {
+		height: 98px;
+	}
+	.blog-title-wrap {
+		padding: 31px 0 18px;
+	}
+	.team .img img {
+		left: 50%;
+    max-width: none;
+    position: relative;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    width: auto;
+	}
+	.home .navigation {
+		width: 527px;
+	}
+	.home button.menu {
+		padding-top: 2px;
+	}
+	.home .menu.home-menu.menu-bar {
+		margin: 17px 0 0;
+	}
+	/*	homepage-one css start*/
+	.navigation > li {
+		margin-left: 15px;
+	}
+	.navigation .drop-down {
+		width: 154px;
+	}
+	.homepage-one .revo-slider h2 {
+		font-size: 40px !important;
+	}
+	.homepage-one .revo-slider h1 {
+		font-size: 50px !important;
+		margin-top: 10px;
+	}
+	.homepage-one .team .img-cont {
+		padding-bottom: 83px;
+	}
+	.homepage-one .happy-client p {
+		width: auto;
+	}
+	.homepage-one .client-info {
+		margin-left: 25px;
+	}
+	.homepage-one .team .img-cont {
+    padding-bottom: 75px;
+}
+.about-us-page .process ul li:after{
+	 width: 71px;
+}
+	/*	homepage-one css end*/
+
+	/*about-us css start*/
+	.process {
+		background-size: 100% 100%;
+	}
+	.team-member-info {
+		padding-left: 65px;
+	}
+	.about-us-page .social-link li {
+		width: 43px;
+	}
+	/*about-us css end*/
+
+	/*service css start*/
+	.service-page .our-service p, .service-info p{
+		width: auto;
+	}
+	/*service css end*/
+
+	/*our-team-one css end*/
+	.our-team-one .member-cont {
+		padding: 0 22px;
+	}
+	.our-team-one .member-info {
+		height: 274px;
+	}
+	/*our-team-one css end*/
+
+	/*project page  css start*/
+	.proj-img-info {
+		left: 0;
+		width: 520px;
+	}
+	/*project page  css end*/
+
+	/*project-one page  css start*/
+	.project-title li a {
+		padding: 16px 27px;
+	}
+	.project-title {
+		width: auto;
+	}
+	/*project-one  page  css end*/
+
+	/*happy-client  page  css start*/
+	.happy-client-page .client-info {
+		width: 77%;
+		margin-left: 17px;
+	}
+	.client-slider {
+		background-size: 100% 100%;
+	}
+	/*happy-client  page  css end*/
+
+	/*blog page  css start*/
+	.blog-page .icons li {
+		width: 28%;
+	}
+	.blog-page .padding-top {
+		padding-top: 0;
+	}
+	.blog-section-info figure{
+		display: block;
+	}
+	/*blog   page  css end*/
+
+	/*blog-post page  css start*/
+	.comments-info li:last-child .user-detail {
+		margin-left: 28px;
+	}
+	/*blog-post page  css end*/
+
+	/*careers css  start here*/
+	.symbol label {
+		width: 30%;
+	}
+	.benefit-perk h4 {
+		font-size: 17px;
+	}
+	.apply-job input[type="text"] {
+		width: 70%;
+	}
+	/*careers css  end here*/
+
+	/*faq css start here*/
+	.ask-directly p {
+		width: auto;
+	}
+	.call-details a {
+		font-size: 28px;
+	}
+	.contact-details i.icon-call-in, .contact-details i.icon-envelope-open {
+		font-size: 37px;
+		top: 22px;
+	}
+	/*faq css  end here*/
+
+	/*contact-us css start here*/
+	.address-detail h3 {
+		font-size: 33px;
+	}
+	/*contact-us css end here*/
+
+	/*switcher css start*/
+	#wrapper.boxed, .boxed #header {
+		max-width: 750px;
+		width: 100%;
+		margin: 0 auto;
+	}
+	/*switcher css end*/
+}
+
+/*
+ 2.) Media Query for Handheld Devices
+ ===============================*/
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+	.img-cont span {
+		left: -28%;
+	}
+	.blog p {
+		width: auto;
+	}
+	.blog-title h4{
+		font-size:18px;
+	}
+	.icons li {
+		width: 50%;
+	}
+	.home-menu.menu-bar {
+		margin-top: 17px;
+	}
+	.img-cont p, .service-info p {
+		width: auto;
+	}
+	.line {
+		bottom: 1px;
+	}
+	.blog-title-wrap {
+		padding: 43px 0 29px;
+		height: 127px;
+	}
+	.our-service p {
+		width: auto;
+	}
+	.team .img-cont {
+		padding-bottom: 58px;
+		padding-top: 85px;
+	}
+	.blog .blog-content-wrap h4{
+		font-size: 18px;
+	}
+	.blog:before {
+		height: 127px;
+	}
+	#footer form button {
+		padding: 14px 21px;
+	}
+	input[type="text"] {
+		width: 251px;
+		padding: 15px 20px 12px 48px;
+	}
+	#footer form {
+		width: 391px;
+	}
+	.team .img img {
+		width: auto;
+		max-width: none;
+	}
+	.img-cont {
+		padding-bottom: 83px;
+	}
+	.menu.home-menu.menu-bar {
+		margin: 19px 0 0;
+	}
+
+	/*	homepage-one css start*/
+	.navigation > li {
+		margin-left: 30px;
+	}
+	.homepage-one .revo-slider h2 {
+		font-size: 50px;
+	}
+	.about-us-page .process ul li:after{
+		width: 99px;
+	}
+	.homepage-one .revo-slider h1 {
+		font-size: 65px !important;
+	}
+	.homepage-one .team .img-cont {
+		padding-bottom: 75px;
+	}
+	.homepage-one .happy-client p {
+		width: auto;
+	}
+	.homepage-one .client-info {
+		margin-left: 25px;
+	}
+	/*	homepage-one css end*/
+
+	/*about-us css start*/
+	.process {
+		background-size: 100% 100%;
+	}
+	/*about-us css end*/
+
+	/*service css start*/
+	.service-page .our-service p {
+		width: auto;
+	}
+	/*servicw css end*/
+
+	/*our-team-one css end*/
+	.our-team-one .member-cont {
+		padding: 0 35px;
+	}
+	.our-team-one .member-info {
+		height: 366px;
+	}
+	/*our-team-one css end*/
+
+	/*project page  css start*/
+	.proj-img-info {
+		left: 0;
+		width: 740px;
+	}
+	/*project page  css end*/
+
+	/*project-one page  css start*/
+	.project-title li a {
+		padding: 16px 28px;
+	}
+	.project-title {
+		width: 737px;
+	}
+	/*project-one  page  css end*/
+
+	/*happy-client  page  css start*/
+	.client-slider {
+		background-size: 100% 100%;
+	}
+	.happy-client-page .client-info {
+		margin-left: 30px;
+		width: 75%;
+	}
+	/*happy-client  page  css end*/
+
+	/*blog page  css start*/
+	.blog-page .padding-top {
+		padding-top: 0;
+	}
+	.blog-page .icons li{
+		width: 21%;
+	}
+	.blog-section-info figure{
+		display: block;
+	}
+	/*blog   page  css end*/
+
+	/*careers css  start here*/
+	.symbol label {
+		width: 30%;
+	}
+	.apply-job input[type="text"] {
+		width: 70%;
+	}
+	/*careers css  end here*/
+
+	/*faq css start here*/
+	.ask-directly p {
+		width: auto;
+	}
+	.call-details a {
+		font-size: 37px;
+	}
+	.contact-details i.icon-call-in, .contact-details i.icon-envelope-open {
+		font-size: 40px;
+		top: 22px;
+	}
+	/*faq css  end here*/
+
+	/*switcher css start here*/
+	#wrapper.boxed, .boxed #header {
+		margin: 0 auto;
+		max-width: 970px;
+		width: 100%;
+	}
+	/*switcher css end here*/
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1250px) {
+	#footer form {
+		width: auto;
+	}
+}
+/*
+ 3.) Media Query for mobile
+ ===============================*/
+@media only screen and (max-width: 767px) {
+	.btn, button {
+		padding: 12px 37px;
+	}
+	.navigation > li.active a{
+		color: #ffffff;
+	}
+	.our-service p, .service-info p {
+		width: auto;
+	}
+	.banner {
+		padding-top: 100px;
+		height: 400px;
+	}
+	.social-link {
+		width: 100%;
+	}
+	button.home-menu {
+		padding-top: 5px;
+	}
+	.home-menu.menu-bar {
+		margin-top: 6px;
+	}
+	.blog p {
+		width: auto;
+	}
+	.banner h2 {
+		font-size: 38px !important;
+		margin-bottom: 10px;
+	}
+	.banner h1 {
+		font-size: 46px !important;
+	}
+	.about-us .img, .img-cont, .blog-title-wrap, .img-wrap .img, .img-wrap, .award-section li, .blog-title, .social-linkm, .user-img, .user-detail, .careers .profile {
+		width: 100%;
+		float: none;
+	}
+	.blog-bar  .social-link {
+		margin-top: 30px;
+	}
+	.about-us .img img {
+		max-width: 100%;
+	}
+	.img-cont, .our-service {
+		padding-left: 18px;
+		padding-top: 45px;
+	}
+	.img-cont {
+		background: none;
+	}
+	.img-cont span {
+		display: none;
+	}
+	.img-cont p {
+		width: auto;
+	}
+	.team:after, .blog:before {
+		display: none;
+	}
+	.blog .img img {
+		width: 100%;
+	}
+	.blog-title-wrap {
+		padding: 30px 15px 25px;
+	}
+	.award-section li, .footer-logo, .ask-directly p {
+		margin-bottom: 50px;
+	}
+	#footer form {
+		width: 100%;
+	}
+	#footer form button {
+		margin-left: 0;
+		margin-top: 10px;
+	}
+	input[type="text"], .project-item {
+		width: 100%;
+	}
+	.our-service a.btn, .profile-detail, .call-details {
+		margin-bottom: 30px;
+	}
+	.our-service, .img-cont, .contact-us .ask-directly,.homepage-one .blog, .service-page .our-service {
+		padding-bottom: 30px;
+	}
+	.social-link li {
+		text-align: left;
+	}
+	.line {
+		display: none;
+	}
+	.icons li {
+		width: 43%;
+	}
+	/*homepage-one start*/
+	.homepage-one .img-section .img {
+		width: 100%;
+	}
+	.homepage-one .team .img-cont {
+		padding-bottom: 60px;
+	}
+	.homepage-one .revo-slider h2 {
+		font-size: 27px !important;
+	}
+	.homepage-one .revo-slider h1 {
+		margin-top: 70px !important;
+		font-size: 40px !important;
+		line-height: 1.2 !important;
+	}
+	.homepage-one .tp-bullet-title {
+		display: none !important;
+	}
+	.homepage-one .navigation {
+		display: none;
+	}
+	.header-one  button.menu {
+		display: block;
+		position: absolute;
+		right: 0;
+		top: -36px;
+	}
+	.homepage-one #header {
+		padding: 24px 0 26px;
+	}
+	.header-one .navigation, .home .navigation {
+		left: 0;
+		padding: 20px 0;
+		position: absolute;
+		top: 18px;
+		width: 100%;
+		z-index: 999999;
+		background: rgba(0,0,0,0.8);
+	}
+	.home .navigation {
+		top: 50px;
+	}
+	.header-one button.menu {
+		padding-top: 11px;
+	}
+	.navigation > li {
+		float: none;
+		margin-bottom: 20px;
+	}
+	.navigation li a, .navigation li:hover a {
+		color: #ffffff;
+	}
+	.navigation > li:first-child {
+		margin-left: 45px;
+	}
+	.navigation .drop-down {
+		position: static;
+		padding-top: 4px;
+		width: 100%;
+	}
+	.navigation li:hover .drop-down {
+		display: none;
+	}
+	.revo-slider img {
+		width: 100%;
+		max-width: none;
+	}
+	.navigation .drop-down li a {
+		background: none;
+	}
+	.drop-down li:last-child a {
+		border-bottom: 1px solid #484545;
+	}
+	.revo-slider {
+		overflow: hidden;
+	}
+	.header-one .menu.menu-bar {
+		margin-top: 10px;
+	}
+	/*homepage-one end*/
+
+	/*about-us css start*/
+	.process {
+		background-size: 100% 100%;
+	}
+	.team-member, .team-member-info, .about-us-page .process ul li, .symbol label, .ask-directly .contact-details .call-details {
+		width: 100%;
+		float: none;
+	}
+	.about-us-page .process ul li {
+		margin-bottom: 20px;
+	}
+	.about-us-page .img-cont span, .about-us-page .process ul li:last-child::after {
+		display: block;
+	}
+	.about-us-page .header-one .navigation {
+		top: 13px;
+	}
+	.h3 {
+		margin-bottom: 10px;
+	}
+	.about-us-page .about-us-detail, .about-us-page  .fun-fact, .about-us-page .team-group, .service-info, .error-info, 
+	.error-page .view-more, .client-slider-cont, .blog-post-page .blog-section, .admin-detail, .comments, .leave-comment, 
+	.benefit-perk, .about-us-detail, .frequent-question, .ask-directly, .address-detail, .blog-content-wrap,.fun-fact,.homepage-one .happy-client{
+		padding: 50px 0 50px;
+	}
+	.about-us-page .team-member-info {
+		margin-left: 0;
+		padding-left: 30px;
+		padding-right: 20px;
+	}
+	.about-us-page #header.header-one{
+		padding:20px 0 18px;
+	}
+	.footer-logo {
+		margin-top: 0;
+	}
+	#footer, .team .img-cont, .about-us-page .img-cont, .service-page .our-service {
+		padding-top: 50px;
+	}
+	/*about-us css end*/
+
+	/*service css start*/
+	.service-page .our-service p {
+		width: auto;
+	}
+	.service-info h3 {
+		margin-top: 20px;
+	}
+	.service-info .text-right {
+		text-align: left;
+	}
+	.service-info .text-center {
+		margin-top: 35px;
+	}
+	/*servicw css end*/
+
+	/*our-team-one css end*/
+	.our-team-one .member-cont {
+		padding: 0 35px;
+	}
+	.our-team-one .blog-title {
+		margin-top: 16px;
+		margin-bottom: 50px;
+	}
+	.our-team-one .margin-bottom {
+		margin-bottom: 0;
+	}
+	.our-team-one #footer, .blog-section, .home .banner {
+		padding-top: 0;
+	}
+	.our-team-one .member-img img {
+		display: block;
+		margin: 0 auto;
+	}
+	/*our-team-one css end*/
+
+	/*project page  css start*/
+	.project .project-info, .project-detail, .happy-client-page .happy-client {
+		padding: 40px 0 0;
+	}
+	.proj-img-info {
+		left: 0;
+		width: 100%;
+		height: 25px;
+	}
+	.proj-img-info .bullet {
+		top: 7px;
+	}
+	.proj-img-info i {
+		height: 10px;
+		width: 10px;
+	}
+	.project-page .btn, .symbol label {
+		margin-top: 10px;
+	}
+	.project-page .contact-us, .user-detail {
+		margin-left: 0;
+	}
+	.view-more, .que-ans-wrap, .blog,.about-us-page .img-cont {
+		padding-bottom: 0;
+	}
+	/*project page  css end*/
+
+	/*project-one page  css start*/
+	.project-title li a {
+		padding: 16px 30px;
+		width: 100%;
+		border-right: 1px solid #dedede;
+		border-bottom: none;
+	}
+	.project-title li:last-child {
+		border-bottom: 1px solid #dedede;
+	}
+	.project-title {
+		width: auto;
+		text-align: left;
+	}
+	.project-title li, .careers .profile-info li .btn, .apply-job form button {
+		float: none;
+	}
+	/*project-one  page  css end*/
+
+	/*error  page  css start*/
+	.error-page .h1 {
+		font-size: 150px !important;
+	}
+	.error-info strong {
+		font-size: 20px;
+		width: auto;
+	}
+	.error-info strong:after, .error-info strong:before {
+		border-width: 23px 20px;
+	}
+	.error-info strong:after {
+		left: -40px;
+	}
+	.error-page .btn, .user-detail, .address-detail address {
+		margin-top: 30px;
+	}
+	/*error  page  css end*/
+
+	/*happy-client  page  css start*/
+	.happy-client-page .client-info p {
+		width: auto;
+	}
+	.happy-client-page .client-info {
+		margin-left: 15px;
+		width: 76%;
+	}
+	/*happy-client  page  css end*/
+
+	/*blog page  css start*/
+	.pager-section {
+		padding-bottom: 0;
+	}
+	.blog-page .icons li {
+		width: auto;
+		margin-right: 15px;
+	}
+	.blog-section img {
+		width: 100%;
+	}
+	/*blog   page  css end*/
+
+	/*blog-post page  css start*/
+	.blog-post-page .blog-post-info, .comments-info li:last-child {
+		padding-left: 0;
+	}
+	.leave-comment h3 {
+		font-size: 33px;
+	}
+	/*blog-post page  css end*/
+
+	/*careers css  start here*/
+	.careers .profile-info li .btn {
+		margin-top: 20px;
+	}
+	/*careers css  end here*/
+
+	/*faq css start here*/
+	.ask-directly p {
+		width: auto;
+	}
+	.call-details a {
+		font-size: 22px;
+	}
+	.call-details {
+		padding-left: 52px;
+	}
+	.contact-details i.icon-call-in, .contact-details i.icon-envelope-open {
+		font-size: 30px;
+		top: 20px;
+		right: auto;
+	}
+	.frequent-question h3 {
+		line-height: 1.4;
+	}
+
+	/*faq css  end here*/
+
+	/*contact-us css start here*/
+	.address-detail p {
+		margin-bottom: 40px;
+	}
+	.contact-us .address-detail i.icon-location-pin {
+		top: -10px;
+	}
+	.address-detail h3 {
+		font-size: 34px;
+	}
+	/*contact-us css end here*/
+
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	.homepage-one .revo-slider h1 {
+		font-size: 32px !important;
+		margin-top: 35px !important;
+	}
+}
+/*switcher css*/
+@media (min-width: 1200px) {
+	#wrapper.boxed, .boxed #header {
+		max-width: 1170px;
+		width: 100%;
+		margin: 0 auto;
+	}
+	.boxed .revo-slider {
+		width: 1170px;
+		margin: 0 auto;
+		overflow: hidden;
+	}
+	.blogpost-slider{
+		max-width:438px;
+	}
+
+}

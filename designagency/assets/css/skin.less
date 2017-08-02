@@ -1,0 +1,69 @@
+/*!
+ * Theme v1.0.0 
+ * Copyright 2015-2016 theemon.com
+ */
+@skinColor:#eeab42; //Change here your theme Color
+@font-family: 'Roboto Slab', serif; //Change here your theme Font family
+
+.transition_effect{
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+//===============================================
+//====================TEXT COLOR==================
+.icons li i, .homepage-one .happy-client i, .about-us-page .process .img-cont ul li.active span, .form-content i.icon-envelope-open, .project-title li:hover a,
+.symbol i, .profile-detail li i, .frequent-question form i, .contact-details i.icon-call-in, .contact-details i.icon-envelope-open,a.btn:hover, 
+.happy-client-page .client-info i,.contact-us .address-detail i.icon-location-pin, .footer-nav li a:hover, .project-title li.active a,.call-details a:hover  {
+  color:@skinColor;
+  .transition_effect;
+}
+.our-team .team-member-info .social-link li:hover a, #footer .social-link li a:hover{
+    color:darken(@skinColor,20%);
+    .transition_effect;
+}
+.our-team-one .social-link li a {
+    color:lighten(@skinColor,5%);
+    .transition_effect;
+}
+
+//============================================================
+//==========================BACKGROUND COLOR==================
+.img-cont i, .img-cont i:after,.yellow-bar, .navigation > li > a:after, .our-team .team-group-detail:hover .team-member-info, 
+.error-info strong, .happy-client-page .client-slider-cont .owl-page.active, .about-us-page .yellow-bar,.btn:hover,#footer form button:hover{
+  background:@skinColor;
+  .transition_effect;
+}
+.img-cont span, .team .img-cont span{
+  background:fade(@skinColor,30%);
+  .transition_effect;
+  }
+   .overlay{
+     background:lighten(@skinColor,20%);
+   }
+   
+  
+
+
+//============================================================
+//==========================BORDER COLOR==================
+.overlay:after, .about-us-page .process .img-cont ul li.active span, .pager li.active i, .pager li:hover a,a.btn:hover{
+    border-color:@skinColor;
+  }
+.error-info strong:before{
+   border-color: #fff #fff #fff @skinColor;
+}
+.error-info strong:after{
+  border-color:  @skinColor  @skinColor   @skinColor #ffffff;
+}
+#footer form button:hover{
+  border-color:@skinColor;
+}
+//============================================================
+//==========================SVG COLOR==================
+.benefit-perk .svg path{
+    fill:@skinColor !important;
+   }
