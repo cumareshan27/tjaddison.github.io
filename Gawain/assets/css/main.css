@@ -863,6 +863,7 @@ textarea.input {
     font-weight: 700;
     line-height: 1;
     letter-spacing: -1px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
 .navbar-logo:active, .navbar-logo:hover {
