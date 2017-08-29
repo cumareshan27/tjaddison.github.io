@@ -2,6 +2,10 @@ $( document ).ready( function() {
 
     'use strict';
 
+    // Set year
+    // --------------------------------------------------
+    $( '#year' ).html(new Date().getFullYear());
+
     // Navbar fadein
     // --------------------------------------------------
     $( '.navbar' ).removeClass( 'animated' );
